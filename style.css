@@ -332,9 +332,13 @@ footer .footer-box {
     display: flex;
     position: absolute;
     flex-direction: column;
-    top: 10px;
+    top: 40px;
     right: 10px;
     background-color: black;
+  }
+  .fa-bars{
+    color: white;
+    cursor: pointer;
   }
 
   .logo h3 {
@@ -360,6 +364,9 @@ footer .footer-box {
       flex-direction: column;
       flex-wrap: wrap;
     } */
+}
+.hidemenu{
+  display: none !important;
 }
 
 @media(max-width:970px) {
